@@ -1,0 +1,73 @@
+body {
+    background-image: url(images/bg-wool-dark.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1565px;
+}
+
+li {
+    list-style-type: none;
+   }
+
+ul {
+    padding-left: 0px;
+}
+
+.block_reg {
+    margin-left: -3%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-title {
+    font-size: 227%;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    font-size: 118%;
+    border-radius: 23px;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 340px;
+    border-top-width: 7px;
+    border-right-width: 0px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    font-size: 107%;
+    border-radius: 23px;
+    margin-top: 5%;
+    margin-left: 9%;
+    width: 300px;
+    height: 40px;
+}
+.form-block {
+    background-color: white;
+    width: 380px;
+    height: 427px;
+    border-radius: 18px;
+}
+
+p.button {
+    cursor: pointer;
+    }
+button.button {
+    cursor: pointer;
+    }
+
+    .reg_img {
+        margin-left: 860px;
+        margin-top: 9%;
+        width: 120px;
+    }

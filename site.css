@@ -1,0 +1,146 @@
+body {
+    background-image: url(images/bg-wool-dark.png);
+}
+
+h1 { 
+    color: rgb(0 0 0);
+    font-size: 59px;
+    margin-left: 23px;
+    border-radius: 33%;
+    background: grey;
+    font-family: monospace;
+    font-style: normal;
+    }
+
+.header {
+	background-image: url(images/header2.PNG);
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    height: 152px;
+    width: auto;
+}
+
+.txt {
+    margin-left: 3%;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+.text {
+    margin-left: 3%;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+.title {
+    margin-left: 3%;
+    font-size: 170%;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.wrapper1 {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    height: 700px;
+}
+.wrapper2 {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    height: 3250px;
+}
+.wrapper3 {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    height: 1550px;
+}
+.wrapper4 {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    height: 450px;
+}
+
+.wrapper5 {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    height: 450px;
+}
+
+.wrapper6 {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    height: 450px;
+}
+
+
+
+.sprut {
+    width: 5%;
+    margin-top: 4%;
+}
+
+.all_sprut {
+    display: flex;
+    justify-content: center;
+}
+
+.tool {
+    width: 2%;
+    height: 47px;
+}
+.book {
+    width: 3%;
+}
+
+.ztextz {
+    padding-top: 2%;
+}
+
+.punkt {
+    padding-top: 2%;
+	font-family: fantasy;
+}
+.punkt2 {
+	font-family: fantasy;
+}
+
+.bron {
+	width: 3%;
+    height: 52px;
+}
+
+.all {
+	width: 3%;
+}
+
+.topbutton {
+	width: 38px;
+	height: 38px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	cursor: pointer;
+}
+.downbutton {
+	width: 38px;
+    height: 38px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    cursor: pointer;
+}
