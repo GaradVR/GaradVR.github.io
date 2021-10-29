@@ -144,3 +144,9 @@ h1 {
     left: 50px;
     cursor: pointer;
 }
+
+button {
+    width: 7%;
+    height: 15%;
+    border-radius: 100%;
+}
