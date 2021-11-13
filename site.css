@@ -145,7 +145,8 @@ h1 {
     cursor: pointer;
 }
 
-button {
+.button {
+    background: white;
     width: 7%;
     height: 15%;
     border-radius: 100%;
