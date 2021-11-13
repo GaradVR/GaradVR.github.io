@@ -1,0 +1,21 @@
+/* Page layout styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000 no-repeat center top;
+    font: 14px/1.3 Arial, sans-serif;
+}
+
+#scene {
+    background-color: #f3f4ef;
+    border: 1px solid #dedede;
+    padding: 5px;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    width: 1000px;
+}
