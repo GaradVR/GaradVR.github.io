@@ -6,50 +6,269 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site.css">
-    <link rel="stylesheet" href="normal.css">
-    <link rel="stylesheet" href="small.css">
-    <link rel="stylesheet" href="big.css">
     <link rel="stylesheet" href="NavBar.css">
+    <link rel="stylesheet" href="Command.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>AllEnchant</title>
 </head>
 
 <body>
     <header class="header">
-        <h1>AllEnchant.ru</h1> <button>Вход</button><h2>/</h2><button>Регистрация</button>
+        <h1>AllEnchant.ru</h1> <button>Вход</button>
+        <h2>/</h2><button>Регистрация</button>
         <a href="#" title="Вернуться к началу" class="topbutton">
-			<img src="images/arrow-up.png" alt class="topbutton">
-		</a>
+            <img src="images/arrow-up.png" alt class="topbutton">
+        </a>
         <a href="#end" title="Уйти в конец" class="topbutton2">
-			<img src="images/arrow-down.png" alt class="downbutton">
-		</a>
+            <img src="images/arrow-down.png" alt class="downbutton">
+        </a>
     </header>
     <div class="nav-container" id="navigation">
-		
+
         <nav>
-         
-                <li><a href="index.html"> Введение </a></li>
-                <li><a href="ALL.html"> Зачарования </a></li>
-                <li><a href="Command.html"> Команды </a></li>
-                <li><a href="info-phone.html"> ИНФО </a></li>
-         
+
+            <li><a href="index.html"> Введение </a></li>
+            <li><a href="ALL.html"> Зачарования </a></li>
+            <li><a href="Command.html"> Команды </a></li>
+            <li><a href="info-phone.html"> ИНФО </a></li>
+
             </ul>
-            
+
             <div class="nav-left"></div>
             <div class="nav-right"></div>
             <div class="nav-above"></div>
-         
+
         </nav>
-    
+
     </div>
     <div class="wrapper5" id="chapter-3">
-    <div class="text">
-        
-
-
+        <div class="title"><img src="./images/636224381094704054-removebg-preview.png" class="Command">Как наложить чары с помощью команд?<img src="../images/636224381094704054-removebg-preview.png" class="Command"></div>
+        <div class="text">
+            Как говорилось во вкладке <a href="index.html">Введение</a> - предметы в майнкрафт можно зачаровать с помощью команд. В этом Вам поможет слейдущая команда:
+            <p class="text">/enchant [ник игрока] [ID чар] [уровень]</p>
+            Прошу заметить, что перед тем как вписывать команду в чат нужно использовать кодовый знак "/".
+        </div>
     </div>
-</div>
-<div id="end"></div>
+    <div class="wrapper7" id="chapter-3">
+        <div class="title"><img src="./images/unnamed-removebg-preview.png" class="Command">ID зачарований<img src="./images/unnamed-removebg-preview.png" class="Command"></div>
+        <div class="text">
+            <div class="xscroll">
+                <table id="table">
+                    <tr>
+                        <th>Зачарование</th>
+                        <th class="txt-uid">Текстовый ID</th>
+                        <th class="uid">ID</th>
+                        <th class="max">Макс. Ур.</th>
+                    </tr>
+                    <tr>
+                        <td>Разящий клинок (JE)</td>
+                        <td class="txt-uid">sweeping</td>
+                        <td class="uid">22</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Отбрасывание</td>
+                        <td class="txt-uid">knockback</td>
+                        <td class="uid">19</td>
+                        <td class="max">2</td>
+                    </tr>
+                    <tr>
+                        <td>Острота</td>
+                        <td class="txt-uid">sharpness</td>
+                        <td class="uid">16</td>
+                        <td class="max">5</td>
+                    </tr>
+                    <tr>
+                        <td>Небесная кара</td>
+                        <td class="txt-uid">smite</td>
+                        <td class="uid">17</td>
+                        <td class="max">5</td>
+                    </tr>
+                    <tr>
+                        <td>Мародёрство (Добыча)</td>
+                        <td class="txt-uid">looting</td>
+                        <td class="uid">21</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Заговор огня</td>
+                        <td class="txt-uid">fire_aspect</td>
+                        <td class="uid">20</td>
+                        <td class="max">2</td>
+                    </tr>
+                    <tr>
+                        <td>Бич членистоногих</td>
+                        <td class="txt-uid">bane_of_arthropods</td>
+                        <td class="uid">18</td>
+                        <td class="max">5</td>
+                    </tr>
+                    <tr>
+                        <td>Эффективность</td>
+                        <td class="txt-uid">efficiency</td>
+                        <td class="uid">32</td>
+                        <td class="max">5</td>
+                    </tr>
+                    <tr>
+                        <td>Шёлковое касание</td>
+                        <td class="txt-uid">silk_touch</td>
+                        <td class="uid">33</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Удача</td>
+                        <td class="txt-uid">fortune</td>
+                        <td class="uid">35</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Ударная волна</td>
+                        <td class="txt-uid">punch</td>
+                        <td class="uid">49</td>
+                        <td class="max">2</td>
+                    </tr>
+                    <tr>
+                        <td>Сила</td>
+                        <td class="txt-uid">power</td>
+                        <td class="uid">48</td>
+                        <td class="max">5</td>
+                    </tr>
+                    <tr>
+                        <td>Воспламенение</td>
+                        <td class="txt-uid">flame</td>
+                        <td class="uid">50</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Бесконечность</td>
+                        <td class="txt-uid">infinity</td>
+                        <td class="uid">51</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Тягун (JE и BE)</td>
+                        <td class="txt-uid">riptide</td>
+                        <td class="uid">&#8212;</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Пронзатель</td>
+                        <td class="txt-uid">impaling</td>
+                        <td class="uid">&#8212;</td>
+                        <td class="max">5</td>
+                    </tr>
+                    <tr>
+                        <td>Громовержец (JE и BE)</td>
+                        <td class="txt-uid">channeling</td>
+                        <td class="uid">&#8212;</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Верность (JE и BE)</td>
+                        <td class="txt-uid">loyalty</td>
+                        <td class="uid">&#8212;</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Шипы</td>
+                        <td class="txt-uid">thorns</td>
+                        <td class="uid">7</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Прочность</td>
+                        <td class="txt-uid">unbreaking</td>
+                        <td class="uid">34</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Починка</td>
+                        <td class="txt-uid">mending</td>
+                        <td class="uid">70</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Проклятье утраты (JE и BE)</td>
+                        <td class="txt-uid">vanishing_curse</td>
+                        <td class="uid" td>71</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Проклятие несъёмности (JE и BE)</td>
+                        <td class="txt-uid">binding_curse</td>
+                        <td class="uid">&#8212;</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Приманка</td>
+                        <td class="txt-uid" d>lure</td>
+                        <td class="uid">62</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Морская удача</td>
+                        <td class="txt-uid">luck_of_the_sea</td>
+                        <td class="uid">61</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Огнеупорность</td>
+                        <td class="txt-uid">fire_protection</td>
+                        <td class="uid">1</td>
+                        <td class="max">4</td>
+                    </tr>
+                    <tr>
+                        <td>Защита от снарядов</td>
+                        <td class="txt-uid">projectile_protection</td>
+                        <td class="uid">4</td>
+                        <td class="max">4</td>
+                    </tr>
+                    <tr>
+                        <td>Защита</td>
+                        <td class="txt-uid">protection</td>
+                        <td class="uid">0</td>
+                        <td class="max">4</td>
+                    </tr>
+                    <tr>
+                        <td>Взрывоустойчивость</td>
+                        <td class="txt-uid">blast_protection</td>
+                        <td class="uid">3</td>
+                        <td class="max">4</td>
+                    </tr>
+                    <tr>
+                        <td>Подводное дыхание</td>
+                        <td class="txt-uid">respiration</td>
+                        <td class="uid">5</td>
+                        <td class="max">3</td>
+                    </tr>
+                    <tr>
+                        <td>Родство с водой (Подводник)</td>
+                        <td class="txt-uid">aqua_affinity</td>
+                        <td class="uid">6</td>
+                        <td class="max">1</td>
+                    </tr>
+                    <tr>
+                        <td>Ледяная Поступь (Ходьба по воде)</td>
+                        <td class="txt-uid">frost_walker</td>
+                        <td class="uid">9</td>
+                        <td class="max">2</td>
+                    </tr>
+                    <tr>
+                        <td>Невесомость</td>
+                        <td class="txt-uid">feather_falling</td>
+                        <td class="uid">2</td>
+                        <td class="max">4</td>
+                    </tr>
+                    <tr>
+                        <td>Глубинный шаг</td>
+                        <td class="txt-uid">depth_strider</td>
+                        <td class="uid">8</td>
+                        <td class="max">3</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="end"></div>
 </body>
 <script type="text/javascript" src="./NavBar.js"></script>
 
