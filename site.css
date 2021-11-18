@@ -17,8 +17,8 @@ h1 {
     margin-top: auto;
     display: flex;
     justify-content: center;
-    height: 152px;
-    width: auto;
+    min-height: 152px;
+    min-width: auto;
 }
 
 .txt {
@@ -47,7 +47,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 700px;
+    min-height: 700px;
 }
 
 .wrapper2 {
@@ -55,7 +55,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 3250px;
+    min-height: 3250px;
 }
 
 .wrapper3 {
@@ -63,7 +63,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 1550px;
+    min-height: 1550px;
 }
 
 .wrapper4 {
@@ -71,7 +71,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 450px;
+    min-height: 450px;
 }
 
 .wrapper5 {
@@ -79,7 +79,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 450px;
+    min-height: 450px;
 }
 
 .wrapper6 {
@@ -87,7 +87,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 450px;
+    min-height: 450px;
 }
 
 .wrapper7 {
@@ -95,7 +95,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2%;
-    height: 1345px;
+    min-height: 1345px;
 }
 
 .wrapper8 {
@@ -103,7 +103,7 @@ h1 {
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 50%;
-    height: 854px;
+    min-height: 854px;
     padding-right: 15%;
 }
 
