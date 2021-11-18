@@ -12,8 +12,8 @@ h1 {
     font-style: normal;
 }
 
-p{
-
+.p{
+min-width: 108%;
 }
 
 .header {
