@@ -13,7 +13,7 @@ h1 {
 }
 
 .p{
-min-width: 108%;
+width: 108%;
 }
 
 .header {
@@ -131,7 +131,7 @@ min-width: 108%;
 
 .tool {
     width: 2%;
-   height: 47px;
+    height: 47px;
 }
 
 .book {
