@@ -33,7 +33,7 @@ ul {
     border-radius: 23px;
     margin-top: 3%;
     margin-left: 3%;
-    min-width: 340px;
+    width: 340px;
     border-top-width: 7px;
     border-right-width: 0px;
     padding-left: 2px;
