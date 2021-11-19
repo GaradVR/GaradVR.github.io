@@ -1,5 +1,5 @@
 .Command {
-    width: 3.5%;
+    min-width: 3.5%;
 }
 
 .max {
