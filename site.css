@@ -114,8 +114,8 @@ width: 108%;
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 50%;
-    min-height: 854px;
-    min-width: 1502px;
+    height: 854px;
+    width: 1502px;
     padding-right: 15%;
 }
 
