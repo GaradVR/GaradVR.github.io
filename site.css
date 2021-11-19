@@ -52,7 +52,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 700px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper2 {
@@ -61,7 +61,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 3250px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper3 {
@@ -70,7 +70,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 1550px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper4 {
@@ -79,7 +79,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 450px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper5 {
@@ -88,7 +88,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 450px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper6 {
@@ -97,7 +97,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 450px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper7 {
@@ -106,7 +106,7 @@ min-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     min-height: 1345px;
-    width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper8 {
@@ -115,12 +115,12 @@ min-width: 108%;
     margin-right: 15%;
     border-radius: 50%;
     min-height: 854px;
-    width: 1502px;
+    min-width: 1502px;
     padding-right: 15%;
 }
 
 .sprut {
-    width: 5%;
+    min-width: 5%;
     margin-top: 4%;
 }
 
@@ -130,12 +130,12 @@ min-width: 108%;
 }
 
 .tool {
-    width: 2%;
-    height: 47px;
+    min-width: 2%;
+   min-height: 47px;
 }
 
 .book {
-    width: 3%;
+    min-width: 3%;
 }
 
 .ztextz {
@@ -152,17 +152,17 @@ min-width: 108%;
 }
 
 .bron {
-    width: 3%;
-    height: 52px;
+    min-width: 3%;
+    min-height: 52px;
 }
 
 .all {
-    width: 3%;
+    min-width: 3%;
 }
 
 .topbutton {
-    width: 38px;
-    height: 38px;
+    min-width: 38px;
+    min-height: 38px;
     position: fixed;
     bottom: 50px;
     right: 50px;
@@ -170,8 +170,8 @@ min-width: 108%;
 }
 
 .downbutton {
-    width: 38px;
-    height: 38px;
+    min-width: 38px;
+    min-height: 38px;
     position: fixed;
     bottom: 50px;
     left: 50px;
@@ -180,7 +180,7 @@ min-width: 108%;
 
 .button {
     background: white;
-    width: 7%;
-    height: 15%;
+    min-width: 7%;
+    min-height: 15%;
     border-radius: 100%;
 }
