@@ -179,8 +179,11 @@ max-width: 108%;
 }
 
 .button {
-    background: white;
-    max-width: 7%;
-    max-height: 15%;
+   background: white;
+    width: 95px;
+    height: 30px;
     border-radius: 100%;
+    font-size: 140%;
+    display: flex;
+    justify-content: space-around;
 }
