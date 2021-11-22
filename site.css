@@ -22,7 +22,7 @@ max-width: 108%;
     display: flex;
     justify-content: center;
     max-height: 152px;
-    max-width: auto;
+    min-width: auto;
 }
 
 .txt {
@@ -52,7 +52,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 700px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper2 {
@@ -61,7 +61,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 3250px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper3 {
@@ -70,7 +70,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 1550px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper4 {
@@ -79,7 +79,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 450px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper5 {
@@ -88,7 +88,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 450px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper6 {
@@ -97,7 +97,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 450px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper7 {
@@ -106,7 +106,7 @@ max-width: 108%;
     margin-right: 10%;
     border-radius: 2%;
     max-height: 1345px;
-    max-width: 1502px;
+    min-width: 1502px;
 }
 
 .wrapper8 {
@@ -115,7 +115,7 @@ max-width: 108%;
     margin-right: 15%;
     border-radius: 50%;
     height: 854px;
-    max-width: 1502px;
+    min-width: 1502px;
     padding-right: 15%;
 }
 
