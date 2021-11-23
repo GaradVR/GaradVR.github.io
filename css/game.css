@@ -8,5 +8,6 @@
 
 #scene {
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
+    padding-right: 65px;
 }
