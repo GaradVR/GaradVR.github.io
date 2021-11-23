@@ -7,11 +7,6 @@
 
 
 #scene {
-    background-color: #f3f4ef;
-    border: 1px solid #dedede;
-    padding: 5px;
     display: block;
     margin: 10px auto;
-    position: relative;
-    width: 1000px;
 }
