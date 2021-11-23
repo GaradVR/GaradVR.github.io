@@ -120,13 +120,11 @@ max-width: 108%;
 }
 
 .wrapper9 {
-    background-color: whitesmoke;
-    margin-left: 14%;
-    margin-right: 14%;
-    border-radius: 50%;
-    height: 871px;
-    width: 1000px;
-    padding-right: 15%;
+   background-color: whitesmoke;
+   margin-left: 22%;
+   margin-right: 22%;
+   height: 100px;
+   width: 1000px;
 }
 
 .sprut {
