@@ -195,3 +195,8 @@ max-width: 108%;
     display: flex;
     justify-content: space-around;
 }
+
+.ya-share2 {
+    display: flex;
+    justify-content: center;
+}
