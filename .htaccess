@@ -1,3 +1,27 @@
+<ifModule mod_headers.c>
+
+# Не кэшировать PHP, HTML, XML
+<FilesMatch "\.(php|html|htm|xml)$">
+Header set Cache-Control "no-store, no-cache, max-age=0"
+</FilesMatch>
+
+# Кэшировать изображения 1 месяц 
+<FilesMatch "\.(gif|ico|jpg|jpeg|png|svg)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+# Кэшировать CSS и JS 1 неделю 
+<FilesMatch "\.(js|css)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+
+# Кэшировать шрифты 1 месяц
+<FilesMatch "\.(woff|woff2|eot|otf|ttf)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+</ifModule>
+
 <IfModule mod_expires.c>
 
 # активация формирования заголовков Expires
